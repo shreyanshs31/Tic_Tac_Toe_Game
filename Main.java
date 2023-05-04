@@ -125,6 +125,8 @@ public class Main {
             //if its neither a win or a draw then we have to change the chance to player2
             p1 = !p1;
         }
+        in.close();
+        position.close();
     }
 
 
